@@ -15,7 +15,7 @@ jobs:
       - name: Install libraries
         run: |
           sudo apt-get update
-          sudo apt-get install -y libxft
+          sudo apt-get install -y libxft-dev
       - uses: actions-rs/cargo@v1
         with:
           use-cross: true
