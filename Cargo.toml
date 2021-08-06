@@ -1,0 +1,10 @@
+[package]
+name = "Installer"
+version = "0.0.1"
+authors = ["TymanWasTaken <tyman@tyman.tech>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fltk = "1.1.7"
+rust-embed = "6.0.0"
